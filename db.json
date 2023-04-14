@@ -1,5 +1,42 @@
 {
-  "projects": [],
+  "projects": [
+    {
+      "0": {},
+      "category": {
+        "id": "Dev",
+        "name": "Dev"
+      },
+      "name": "My first project",
+      "budget": "2500",
+      "cost": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "0": {},
+      "category": {
+        "id": "Dev",
+        "name": "Dev"
+      },
+      "name": "My first project",
+      "budget": "2500",
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "0": {},
+      "name": "My job",
+      "budget": "3500",
+      "category": {
+        "id": "Dev",
+        "name": "Dev"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
+    }
+  ],
   "categories": [
     {
       "id": 1,
