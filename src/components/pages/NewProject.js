@@ -20,9 +20,8 @@ function NewProject() {
         })
             .then((response) => response.json())
             .then((data) => {
-                console.log(data);
                 // redirect
-                navigate(`/projects/${data.id}`);
+                navigate('/projects', { state: { message: "Project created successfully!" } });
             })
             .catch((error) => console.log("Error: ", error));
     }
