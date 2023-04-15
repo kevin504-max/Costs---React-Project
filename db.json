@@ -143,6 +143,18 @@
       "cost": 0,
       "services": [],
       "id": 12
+    },
+    {
+      "0": {},
+      "name": "Papa Code",
+      "budget": "975",
+      "category": {
+        "id": "Developer",
+        "name": "Developer"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 13
     }
   ],
   "categories": [
@@ -152,15 +164,15 @@
     },
     {
       "id": 2,
-      "name": "Dev"
+      "name": "Developer"
     },
     {
       "id": 3,
-      "name": "Design"
+      "name": "UX/UI"
     },
     {
       "id": 4,
-      "name": "Agile"
+      "name": "Devops"
     }
   ]
 }
