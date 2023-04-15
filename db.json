@@ -3,7 +3,7 @@
     {
       "0": {},
       "category": {
-        "id": "Developer",
+        "id": 2,
         "name": "Developer"
       },
       "name": "My first project",
@@ -17,7 +17,7 @@
       "name": "My job",
       "budget": "3500",
       "category": {
-        "id": "Developer",
+        "id": 2,
         "name": "Developer"
       },
       "cost": 0,
@@ -30,7 +30,7 @@
         "name": "Kevin Lucas",
         "budget": "888",
         "category": {
-          "id": "Devops",
+          "id": 4,
           "name": "Devops"
         },
         "cost": 0,
@@ -40,7 +40,7 @@
       "name": "Test Infra Project",
       "budget": "7500",
       "category": {
-        "id": "1",
+        "id": 1,
         "name": "Infra"
       },
       "cost": 0,
@@ -49,22 +49,66 @@
     },
     {
       "0": {
-        "0": {},
-        "name": "kevinbrito2012@gmail.com",
-        "budget": "555",
+        "0": {
+          "0": {
+            "0": {
+              "0": {
+                "0": {},
+                "name": "kevinbrito2012@gmail.com",
+                "budget": "555",
+                "category": {
+                  "id": 2,
+                  "name": "Developer"
+                },
+                "cost": 0,
+                "services": [],
+                "id": 6
+              },
+              "name": "Test edit",
+              "budget": "8880",
+              "category": {
+                "id": 3,
+                "name": "UX/UI"
+              },
+              "cost": 0,
+              "services": [],
+              "id": 6
+            },
+            "name": "Test edit",
+            "budget": "8880",
+            "category": {
+              "id": "4",
+              "name": "Devops"
+            },
+            "cost": 0,
+            "services": [],
+            "id": 6
+          },
+          "name": "Test edit",
+          "budget": "8880",
+          "category": {
+            "id": "4",
+            "name": "Devops"
+          },
+          "cost": 0,
+          "services": [],
+          "id": 6
+        },
+        "name": "Test edit",
+        "budget": "6880",
         "category": {
-          "id": "Developer",
-          "name": "Developer"
+          "id": "4",
+          "name": "Devops"
         },
         "cost": 0,
         "services": [],
         "id": 6
       },
       "name": "Test edit",
-      "budget": "8880",
+      "budget": "7880",
       "category": {
-        "id": "3",
-        "name": "UX/UI"
+        "id": "4",
+        "name": "Devops"
       },
       "cost": 0,
       "services": [],
@@ -75,7 +119,7 @@
       "name": "Papa Code",
       "budget": "975",
       "category": {
-        "id": "Developer",
+        "id": 2,
         "name": "Developer"
       },
       "cost": 0,
