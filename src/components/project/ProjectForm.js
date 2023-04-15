@@ -31,7 +31,6 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
 
     function handleChange(e) {
         setProject({ ...project, [e.target.name]: e.target.value });
-        console.log(project);
     }
 
     function handleSelect(e) {
@@ -42,7 +41,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
             }, 
         });
     }
-console.log(project[0])
+
     return (
         <form onSubmit={submit} className={styles.form}>
             <Input type="text" text="Project name" name="name" placeholder="Enter with the project name" handleOnChange={handleChange} value={project[0].name ? project[0].name : ''} />

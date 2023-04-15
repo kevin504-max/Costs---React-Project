@@ -16,7 +16,6 @@ function Projects() {
     const [projectMessage, setProjectMessage] = useState('');
 
     const location = useLocation();
-    console.log(location);
     let message = '';
 
     if(location.state) {
@@ -33,7 +32,6 @@ function Projects() {
             })
                 .then((response) => response.json())
                 .then((data) => {
-                    console.log(data);
                     setProjects(data);
                     setRemoveLoading(true);
                 })

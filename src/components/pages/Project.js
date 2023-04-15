@@ -44,7 +44,6 @@ function Project() {
         setMessage('');
 
         // Budget validation
-        console.log(project[0].budget, project[0].cost)
         if(project[0].budget < project[0].cost) {
             setMessage("The total budget can't be less than the total used");
             setType("error");
@@ -73,13 +72,11 @@ function Project() {
         // Last service
         const lastService = project.services[project.services.length - 1];
         
-        console.log('services', project.services);
         lastService.id = uuidv4();
         
         const lastServiceCost = lastService.cost;
         
         const newCost = parseFloat(project.cost) + parseFloat(lastServiceCost);
-        console.log(project.cost);
 
         // Maximum value validation
         if(newCost > parseFloat(project.budget)) {
