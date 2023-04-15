@@ -3,8 +3,8 @@
     {
       "0": {},
       "category": {
-        "id": "Dev",
-        "name": "Dev"
+        "id": "Developer",
+        "name": "Developer"
       },
       "name": "My first project",
       "budget": "2500",
@@ -17,32 +17,54 @@
       "name": "My job",
       "budget": "3500",
       "category": {
-        "id": "Dev",
-        "name": "Dev"
+        "id": "Developer",
+        "name": "Developer"
       },
       "cost": 0,
       "services": [],
       "id": 3
     },
     {
-      "0": {},
-      "name": "Kevin Lucas",
-      "budget": "888",
+      "0": {
+        "0": {},
+        "name": "Kevin Lucas",
+        "budget": "888",
+        "category": {
+          "id": "Devops",
+          "name": "Devops"
+        },
+        "cost": 0,
+        "services": [],
+        "id": 5
+      },
+      "name": "Test Infra Project",
+      "budget": "7500",
       "category": {
-        "id": "Agile",
-        "name": "Agile"
+        "id": "1",
+        "name": "Infra"
       },
       "cost": 0,
       "services": [],
       "id": 5
     },
     {
-      "0": {},
-      "name": "kevinbrito2012@gmail.com",
-      "budget": "555",
+      "0": {
+        "0": {},
+        "name": "kevinbrito2012@gmail.com",
+        "budget": "555",
+        "category": {
+          "id": "Developer",
+          "name": "Developer"
+        },
+        "cost": 0,
+        "services": [],
+        "id": 6
+      },
+      "name": "Test edit",
+      "budget": "8880",
       "category": {
-        "id": "Dev",
-        "name": "Dev"
+        "id": "3",
+        "name": "UX/UI"
       },
       "cost": 0,
       "services": [],

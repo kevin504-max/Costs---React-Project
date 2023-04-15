@@ -30,7 +30,8 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
     }
 
     function handleChange(e) {
-        setProject({ ...project, [e.target.name]: e.target.value});
+        setProject({ ...project, [e.target.name]: e.target.value });
+        console.log(project);
     }
 
     function handleSelect(e) {
@@ -41,11 +42,11 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
             }, 
         });
     }
-
+console.log(project[0])
     return (
         <form onSubmit={submit} className={styles.form}>
-            <Input type="text" text="Project name" name="name" placeholder="Enter with the project name" handleOnChange={handleChange} value={project.name ? project.name : ''} />
-            <Input type="number" text="Project budget" name="budget" placeholder="Enter with the total budget" handleOnChange={handleChange} value={project.budget ? project.budget: ''} />
+            <Input type="text" text="Project name" name="name" placeholder="Enter with the project name" handleOnChange={handleChange} value={project[0].name ? project[0].name : ''} />
+            <Input type="number" text="Project budget" name="budget" placeholder="Enter with the total budget" handleOnChange={handleChange} value={project[0].budget ? project[0].budget: ''} />
             <Select name="category_id" text="Select the category" options={categories} handleOnChange={handleSelect} value={project.category ? project.category.id : ''} />
             <SubmitButton text={btnText} />
         </form>
