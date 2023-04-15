@@ -65,21 +65,8 @@
         "id": "2",
         "name": "Developer"
       },
-      "cost": 1600,
-      "services": [
-        {
-          "name": "Contract Dev PHP/Laravel",
-          "cost": "1500",
-          "description": "Dev the system",
-          "id": "401d7a08-c2ee-4bd3-9eff-d641d2617384"
-        },
-        {
-          "name": "New service",
-          "cost": "100",
-          "description": "Test",
-          "id": "7eaa5125-6785-433b-8951-c785128d55f8"
-        }
-      ],
+      "cost": 0,
+      "services": [],
       "id": 5
     },
     {
