@@ -110,8 +110,27 @@
         "id": "4",
         "name": "Devops"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 3000,
+      "services": [
+        {
+          "name": "My service",
+          "cost": "1000",
+          "description": "Do this",
+          "id": "64a7c38d-995a-4020-a6df-06c22027b05e"
+        },
+        {
+          "name": "My service 2",
+          "cost": "1000",
+          "description": "Do this",
+          "id": "0de4c87d-827a-4bff-b965-c3722ba9b839"
+        },
+        {
+          "name": "My service 2",
+          "cost": "1000",
+          "description": "Do this",
+          "id": "0de4c87d-827a-4bff-b965-c3722ba9b839"
+        }
+      ],
       "id": 6
     },
     {
