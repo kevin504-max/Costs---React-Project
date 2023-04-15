@@ -14,18 +14,6 @@
     },
     {
       "0": {},
-      "category": {
-        "id": "Dev",
-        "name": "Dev"
-      },
-      "name": "My first project",
-      "budget": "2500",
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "0": {},
       "name": "My job",
       "budget": "3500",
       "category": {
@@ -35,18 +23,6 @@
       "cost": 0,
       "services": [],
       "id": 3
-    },
-    {
-      "0": {},
-      "name": "teste",
-      "budget": "174",
-      "category": {
-        "id": "Infra",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 4
     },
     {
       "0": {},
@@ -71,78 +47,6 @@
       "cost": 0,
       "services": [],
       "id": 6
-    },
-    {
-      "0": {},
-      "name": "teste",
-      "budget": "444",
-      "category": {
-        "id": "Infra",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 7
-    },
-    {
-      "0": {},
-      "name": "kkkkk",
-      "budget": "777",
-      "category": {
-        "id": "Infra",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 8
-    },
-    {
-      "0": {},
-      "name": "teste",
-      "budget": "6666",
-      "category": {
-        "id": "Infra",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 9
-    },
-    {
-      "0": {},
-      "name": "teste",
-      "budget": "789",
-      "category": {
-        "id": "Infra",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 10
-    },
-    {
-      "0": {},
-      "name": "kevinbrito2012@gmail.com",
-      "budget": "456",
-      "category": {
-        "id": "Dev",
-        "name": "Dev"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 11
-    },
-    {
-      "0": {},
-      "name": "Kevin Lucas de Oliveira Brito",
-      "budget": "147",
-      "category": {
-        "id": "Dev",
-        "name": "Dev"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 12
     },
     {
       "0": {},

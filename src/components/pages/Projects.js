@@ -13,6 +13,7 @@ import styles from './Projects.module.css';
 function Projects() {
     const [projects, setProjects] = useState([]);
     const [removeLoading, setRemoveLoading] = useState(false);
+    const [projectMessage, setProjectMessage] = useState('');
 
     const location = useLocation();
     console.log(location);
@@ -40,6 +41,21 @@ function Projects() {
         }, 3000);
     }, []);
 
+    function removeProject(id) {
+        fetch(`http://localhost:5000/projects/${id}`, {
+            method: "DELETE",
+            headers: {
+                "Content-Type": "application/json",
+            },
+        })
+            .then((response) => response.json())
+            .then((data) => {
+                setProjects(projects.filter((project) => project.id !== id));
+                setProjectMessage("Project removed successfully!");
+            })
+            .catch((error) => console.log("Error: ", error))
+    }
+
     return (
         <div className={styles.projectContainer}>
             <div className={styles.titleContainer}>
@@ -47,10 +63,11 @@ function Projects() {
                 <LinkButton to="/newproject" text="Register a new project" />
             </div>
             {message && <Message type="success" message={message} />}
+            {projectMessage && <Message type="success" message={projectMessage} />}
             <Container customClass="start">
                 {projects.length > 0 && 
                     projects.map((project) =>( 
-                        <ProjectCard id={project.id} name={project.name} budget={project.budget} category={project.category.name} key={project.id} />
+                        <ProjectCard id={project.id} name={project.name} budget={project.budget} category={project.category.name} key={project.id} handleRemove={removeProject} />
                     ))
                 }
                 {!removeLoading && <Loading />}
